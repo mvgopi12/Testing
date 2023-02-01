@@ -121,11 +121,11 @@
               "hideCard": false,
               "animateLoading": true,
               "parentColumnSpace": 10.0625,
-              "leftColumn": 33,
+              "leftColumn": 60,
               "dynamicBindingPathList": [],
               "key": "9fidbzq67a",
               "isDeprecated": false,
-              "rightColumn": 57,
+              "rightColumn": 62,
               "widgetId": "k4u4k0s4kx",
               "isVisible": true,
               "version": 1,
@@ -147,7 +147,7 @@
               "animateLoading": true,
               "parentColumnSpace": 10.0625,
               "imageShape": "RECTANGLE",
-              "leftColumn": 57,
+              "leftColumn": 62,
               "dynamicBindingPathList": [
                 {
                   "key": "borderRadius"
@@ -263,7 +263,7 @@
                   "key": "boxShadow"
                 }
               ],
-              "leftColumn": 0,
+              "leftColumn": 27,
               "delimiter": ",",
               "defaultSelectedRowIndex": 0,
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -413,7 +413,7 @@
               },
               "key": "oyf468szi4",
               "isDeprecated": false,
-              "rightColumn": 33,
+              "rightColumn": 60,
               "textSize": "0.875rem",
               "widgetId": "p409gooxau",
               "tableData": [
@@ -516,8 +516,8 @@
                 "click",
                 "submit"
               ],
-              "topRow": 15,
-              "bottomRow": 19,
+              "topRow": 17,
+              "bottomRow": 21,
               "parentRowSpace": 10,
               "type": "BUTTON_WIDGET",
               "hideCard": false,
@@ -559,8 +559,8 @@
                 "sound recorder",
                 "voice recorder"
               ],
-              "topRow": 12,
-              "bottomRow": 19,
+              "topRow": 17,
+              "bottomRow": 24,
               "parentRowSpace": 10,
               "type": "AUDIO_RECORDER_WIDGET",
               "hideCard": false,
@@ -588,6 +588,114 @@
               "isLoading": false,
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "iconColor": "white"
+            },
+            {
+              "widgetName": "CategorySlider1",
+              "displayName": "Category Slider",
+              "iconSVG": "/static/media/icon.cbd0db7a0bd317a6e4cbbd72417f8dee.svg",
+              "labelText": "Size",
+              "searchTags": [
+                "range"
+              ],
+              "topRow": 9,
+              "bottomRow": 17,
+              "parentRowSpace": 10,
+              "labelWidth": 5,
+              "type": "CATEGORY_SLIDER_WIDGET",
+              "hideCard": false,
+              "defaultOptionValue": "md",
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "leftColumn": 3,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                }
+              ],
+              "shouldTruncate": false,
+              "labelPosition": "Left",
+              "options": [
+                {
+                  "label": "Extra Small",
+                  "value": "xs"
+                },
+                {
+                  "label": "Small",
+                  "value": "sm"
+                },
+                {
+                  "label": "Medium",
+                  "value": "md"
+                },
+                {
+                  "label": "Large",
+                  "value": "lg"
+                },
+                {
+                  "label": "Extra Large",
+                  "value": "xl"
+                }
+              ],
+              "isDisabled": false,
+              "key": "az3i1ghm1n",
+              "labelTextSize": "0.875rem",
+              "isDeprecated": false,
+              "rightColumn": 43,
+              "widgetId": "sd14tk1dlx",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "sliderSize": "m",
+              "shouldScroll": false,
+              "version": 1,
+              "parentId": "0",
+              "labelAlignment": "left",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "showMarksLabel": true
+            },
+            {
+              "widgetName": "Checkbox1",
+              "displayName": "Checkbox",
+              "iconSVG": "/static/media/icon.aaab032b43383e4fa53ffc0ef40c90ef.svg",
+              "searchTags": [
+                "boolean"
+              ],
+              "topRow": 27,
+              "bottomRow": 31,
+              "parentRowSpace": 10,
+              "type": "CHECKBOX_WIDGET",
+              "alignWidget": "LEFT",
+              "hideCard": false,
+              "animateLoading": true,
+              "parentColumnSpace": 10.0625,
+              "leftColumn": 15,
+              "dynamicBindingPathList": [
+                {
+                  "key": "accentColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "labelPosition": "Left",
+              "isDisabled": false,
+              "key": "djf6z4yglo",
+              "isRequired": false,
+              "isDeprecated": false,
+              "rightColumn": 27,
+              "dynamicHeight": "AUTO_HEIGHT",
+              "widgetId": "otm4orvszq",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+              "isVisible": true,
+              "label": "Label",
+              "version": 1,
+              "parentId": "0",
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "defaultCheckedState": true,
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
             }
           ]
         },
